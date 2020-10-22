@@ -1,11 +1,38 @@
+.root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+}
 body {
+}
+.page-header {
   background-color: #ffffff;
 }
-
 .logo {
   color: #2196f3;
 }
 
 ul {
   list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
+.section-title {
+  color: #212121;
+}
+.hero-title {
+  color: #ffffff;
+}
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
 }
