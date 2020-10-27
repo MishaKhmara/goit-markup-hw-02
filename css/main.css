@@ -3,20 +3,57 @@
   --title-text-color: #757575;
 }
 body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-style: 400px;
 }
+ul {
+  list-style: none;
+}
+
 .page-header {
   background-color: #ffffff;
 }
 .logo {
   color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
-
-ul {
-  list-style: none;
+.accent {
+  color: #212121;
+  font-family: Oleo Script;
+}
+.accent-footer {
+  color: #ffffff;
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .site-nav .link {
   color: #212121;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: 400px;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -26,13 +63,65 @@ ul {
 .site-nav .link.current {
   color: #2196f3;
 }
+.section-activity {
+  background: #e5e5e5;
+}
+.section-command {
+  background: #f5f4fa;
+}
 .section-title {
   color: #212121;
+  font-family: Roboto;
+  font-style: 400px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
-.hero-title {
+.section-title-list {
+  font-style: 400px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.section-title-list .text {
+  font-style: 400px;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.section-title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  color: #212121;
+}
+.title-text {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+.city {
   color: #ffffff;
 }
-.button {
+.button-partfolio {
+  color: #f5f4fa;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #212121;
+}
+.button-partfolio .link:hover,
+.button-partfolio .link:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
