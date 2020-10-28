@@ -1,29 +1,35 @@
-.root {
+:root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
+  --logo-site-nav-color: #2196f3;
+  --white-text-color: #ffffff;
 }
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
   font-style: 400px;
 }
+a {
+  list-style: none;
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
 
 .page-header {
-  background-color: #ffffff;
+  background-color: var(--white-text-color);
 }
 .logo {
-  color: #2196f3;
-  font-family: Raleway;
+  color: var(--logo-site-nav-color);
+  font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
 .accent {
-  color: #212121;
-  font-family: Oleo Script;
+  color: var(--primary-text-color);
+  font-family: Raleway;
 }
 .accent-footer {
   color: #ffffff;
@@ -95,14 +101,12 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   color: #212121;
 }
 .title-text {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   color: #757575;
 }
 .footer {
@@ -111,8 +115,22 @@ ul {
 .city {
   color: #ffffff;
 }
-.button-partfolio {
-  color: #f5f4fa;
+.citi-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.citi-tel:hover,
+.citi-tel:focus {
+  color: #2196f3;
+}
+
+/* портфолио css*/
+.portfolio-gallery {
+  text-decoration: none;
+}
+.button-portfolio {
   border-radius: 4px;
   font-family: Roboto;
   font-weight: 500;
@@ -120,8 +138,20 @@ ul {
   line-height: 1.6;
   color: #212121;
 }
-.button-partfolio .link:hover,
-.button-partfolio .link:focus {
+.button-portfolio .link:hover,
+.button-portfolio .link:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--title-text-color);
 }
