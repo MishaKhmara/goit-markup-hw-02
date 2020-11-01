@@ -22,7 +22,7 @@ ul {
 }
 .logo {
   color: var(--logo-site-nav-color);
-  font-family: Raleway, cursive;
+  font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -55,13 +55,22 @@ ul {
 
 .site-nav .link {
   color: #212121;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   font-style: 400px;
   text-decoration: none;
 }
-
+.link-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.link-address:hover,
+.link-address:focus {
+  color: #2196f3;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
